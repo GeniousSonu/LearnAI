@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">LearnAI</div>
+      <nav>
+        <a href="#" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+        <a href="#"><i class="fas fa-book"></i> Courses</a>
+        <a href="#"><i class="fas fa-tasks"></i> Assessments</a>
+        <a href="#"><i class="fas fa-envelope"></i> Messages</a>
+        <a href="#" class="logout"><i class="fas fa-sign-out-alt"></i> Log out</a>
+      </nav>
+    </aside>
+    <main class="main-content">
+      <header class="header">
+        <input type="text" placeholder="Search" class="search">
+        <div class="user-info">
+          <img src="https://placehold.co/40x40" alt="User profile">
+          <span>Supratik Sahis</span>
+          <button class="theme-toggle yellow"></button>
+          <button class="theme-toggle gray"></button>
+        </div>
+      </header>
+      <section class="courses">
+        <div class="course gradient-yellow">
+          <h2>Backend Development</h2>
+          <p>240 Videos</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%;"></div>
+          </div>
+          <p>64/160</p>
+          <button class="continue">Continue</button>
+        </div>
+        <div class="course gradient-green">
+          <h2>Backend Development</h2>
+          <p>240 Videos</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%;"></div>
+          </div>
+          <p>64/160</p>
+          <button class="continue">Continue</button>
+        </div>
+      </section>
+      <section class="progress">
+        <h2>Track Progress</h2>
+        <div class="progress-grid">
+          <div class="progress-item gradient-blue">
+            <h3>93</h3>
+            <span>CSS</span>
+            <p>Exceptional achievement!</p>
+            <p>Your dedication to CSS has earned you a remarkable score.</p>
+          </div>
+          <div class="progress-item gradient-green">
+            <h3>Today's Work, 11:30 AM</h3>
+            <p>Solve JavaScript Problems</p>
+          </div>
+          <div class="progress-item gradient-red">
+            <h3>React</h3>
+            <p class="improve">Need to Improve!</p>
+            <div class="mentor">
+              <img src="https://placehold.co/40x40" alt="John Willson">
+              <div>
+                <p>John Willson</p>
+                <p>Backend Developer</p>
+              </div>
+            </div>
+            <button class="improve-btn">Improve Your React Concepts</button>
+          </div>
+        </div>
+      </section>
+      <section class="stats">
+        <div class="stat">
+          <p>+10%</p>
+          <p>JavaScript</p>
+          <p class="up">↑</p>
+        </div>
+        <div class="stat">
+          <p>-5.6%</p>
+          <p>React</p>
+          <p class="down">↓</p>
+        </div>
+        <div class="stat">
+          <p>+5.6%</p>
+          <p>Barba JS</p>
+          <p class="up">↑</p>
+        </div>
+      </section>
+      <section class="upcoming">
+        <div class="upcoming-work">
+          <h3>Upcoming Works</h3>
+          <p>Learn Database</p>
+          <p>Create React App</p>
+        </div>
+        <div class="chat-bot">
+          <button class="chat-btn">Chat with the Bot</button>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
