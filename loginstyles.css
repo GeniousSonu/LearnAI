@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left, .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.left {
+    background:  linear-gradient(to bottom, #020213, #201067);
+    color: white;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.welcome-text {
+    text-align: left;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 68px;
+    margin-top: 200px;
+    margin-left: 455px;
+    margin-bottom: 310px;
+}
+
+.image {
+    position: absolute;
+    top: 116px;
+    left: 0px;
+}
+
+.image img {
+    width: 975px;
+    height: auto;
+}
+
+.right {
+    background: #fff;
+    flex-direction: column;
+}
+
+.login-form {
+    width: 80%;
+    max-width: 400px;
+}
+
+.login-form input[type="email"], .login-form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    display: block;
+    margin: 10px 0;
+    text-align: right;
+    color: #333;
+    text-decoration: none;
+}
+
+.signin-button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.google-signin-button {
+    width: 100%;
+    height: 12%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-signin-button::before {
+    content: url('image/icons8-google (1).svg');
+    margin-right: 40%;
+}
+.create-account {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.create-account a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
